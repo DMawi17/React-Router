@@ -1,0 +1,42 @@
+#home {
+    h1 {
+        font-family: "Pinyon Script", cursive;
+        font-size: 5em;
+        text-align: center;
+    }
+    h2 {
+        text-align: center;
+    }
+}
+#Menu {
+    nav {
+        font-family: Fira Code;
+        display: flex;
+        gap: 2em;
+
+        :first-of-type {
+            margin-left: auto;
+        }
+
+        :last-of-type {
+            margin-right: auto;
+        }
+
+        a {
+            border-radius: 5%;
+            background: linear-gradient(to left top, #dbeedb, #4ca9e7);
+            width: 120px;
+            padding: 1.2em;
+            text-align: center;
+            text-decoration-line: none;
+            color: black;
+            font-weight: bolder;
+            font-size: 1.2em;
+        }
+
+        a.active {
+            background: linear-gradient(to left top, #4ca9e7, #90e490);
+            color: #fff;
+        }
+    }
+}
